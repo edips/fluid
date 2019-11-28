@@ -23,4 +23,5 @@ QQC2.Action {
     property bool visible: true
     property bool hasDividerAfter: false
     property bool hoverAnimation: false
+    property bool toolButtonChecked : false
 }
