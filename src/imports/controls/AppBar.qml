@@ -139,6 +139,7 @@ QQC2.ToolBar {
                 enabled: appBar.actions[index].enabled
                 hoverAnimation: appBar.actions[index].hoverAnimation
                 focusPolicy: Qt.TabFocus
+                toolButtonChecked: appBar.actions[index].toolButtonChecked
 
                 onClicked: appBar.actions[index].triggered(actionButton)
             }
