@@ -20,6 +20,9 @@ QQC2.ToolButton {
     id: control
 
     property bool hoverAnimation: false
+    property bool toolButtonChecked: false
+
+    checkable: toolButtonChecked
 
     contentItem: QQCImpl2.IconLabel {
         spacing: control.spacing
